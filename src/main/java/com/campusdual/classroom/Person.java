@@ -9,6 +9,6 @@ public class Person {
 		this.surname = surname;
 	}
 	public void getDetails() {
-		System.out.println("Nombre completo: "+ name + " "+ surname);
+		System.out.println("Nombre completo: "+ name + " " + surname + "\n");
 	}
 }

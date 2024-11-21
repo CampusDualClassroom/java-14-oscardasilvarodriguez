@@ -10,6 +10,7 @@ public class Teacher extends Person {
 	}
 	@Override
 	public void getDetails() {
-		System.out.println("Nombre completo "+ name + " "+ surname + ", profesor en "+ area.toLowerCase());
+		System.out.println("Esta persona es de tipo: " + this.getClass().getSimpleName() + "\n");
+		System.out.println("Nombre completo "+ this.name + " "+ this.surname + ", profesor en "+ this.area.toLowerCase() + "\n");
 	}
 }

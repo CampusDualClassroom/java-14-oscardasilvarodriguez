@@ -10,6 +10,7 @@ public class PoliceOfficer extends Person {
 	}
 	@Override
 	public void getDetails() {
-		System.out.println("Agente "+ name + " "+ surname + ", division "+ squad.toLowerCase());
+		System.out.println("Esta persona es de tipo: " + this.getClass().getSimpleName() + "\n");
+		System.out.println("Agente "+ this.name + " "+ this.surname + ", division "+ this.squad.toLowerCase() + "\n");
 	}
 }
